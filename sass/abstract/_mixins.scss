@@ -30,6 +30,8 @@ big-desktop
 
 1em = 16px in media queries
 
+
+ORDER: base + typography ==> general layout + grid ==> page layout ==> components
 */
 @mixin respond($breakpoint){
     @if $breakpoint == phone {
