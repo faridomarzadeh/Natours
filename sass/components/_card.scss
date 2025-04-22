@@ -165,7 +165,7 @@
                 clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
             }
         }
-        &:hover &__side--front:hover {
+        &:hover &__side--front {
             transform: rotateY(0);
         }
 
